@@ -1,7 +1,7 @@
 {
-  "name": "typedoc-plugin-zod",
-  "version": "1.2.1",
-  "description": "TypeDoc plugin which replaces z.infer<typeof x> with the inferred type",
+  "name": "typedoc-plugin-valibot",
+  "version": "1.0.0",
+  "description": "TypeDoc plugin which replaces v.InferOutput<typeof x> with the inferred type",
   "main": "dist/plugin.js",
   "scripts": {
     "build": "tsc",
@@ -12,16 +12,15 @@
   "keywords": [
     "typedoc-plugin"
   ],
-  "author": "Gerrit Birkeland <gerrit@gerritbirkeland.com>",
+  "author": "mkljczk <git@mkljczk.pl>",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.14.8",
+    "@types/node": "^20.17.3",
     "outdent": "^0.8.0",
-    "prettier": "^3.3.2",
-    "typedoc": "^0.26.6",
-    "typescript": "^5.5.2",
-    "vitest": "^1.6.0",
-    "zod": "^3.23.8"
+    "prettier": "^3.3.3",
+    "typedoc": "^0.26.10",
+    "typescript": "^5.6.3",
+    "vitest": "^1.6.0"
   },
   "peerDependencies": {
     "typedoc": "0.23.x || 0.24.x || 0.25.x || 0.26.x"
@@ -31,9 +30,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Gerrit0/typedoc-plugin-zod.git"
+    "url": "git://github.com/mkljczk/typedoc-plugin-valibot.git"
   },
   "bugs": {
-    "url": "https://github.com/Gerrit0/typedoc-plugin-zod/issues"
-  }
+    "url": "https://github.com/mkljczk/typedoc-plugin-valibot/issues"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

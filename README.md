@@ -1,23 +1,23 @@
-# typedoc-plugin-zod
+# typedoc-plugin-valibot
 
-Improves display of types created with [Zod](https://github.com/colinhacks/zod)'s `z.infer` and `z.input` types.
+Improves display of types created with [Valibot](https://valibot.dev/)'s `v.InferOutput type.
 
 ## Usage
 
 ```bash
-npm install --save-dev typedoc-plugin-zod
+npm install --save-dev typedoc-plugin-valibot
 ```
 
 ```jsonc
 // typedoc.json
 {
-    "plugin": ["typedoc-plugin-zod"],
+    "plugin": ["typedoc-plugin-valibot"],
 }
 ```
 
-See [an example](https://gerritbirkeland.com/typedoc-plugin-zod/types/Abc.html) of this plugin in action.
+<!-- See [an example](https://gerritbirkeland.com/typedoc-plugin-zod/types/Abc.html) of this plugin in action. -->
 
-## Change Log
+<!-- ## Change Log
 
 ### v1.2.1 (2024-08-18)
 
@@ -46,4 +46,4 @@ See [an example](https://gerritbirkeland.com/typedoc-plugin-zod/types/Abc.html) 
 
 ### v1.0.1
 
--   Add GitHub links to NPM package
+-   Add GitHub links to NPM package -->

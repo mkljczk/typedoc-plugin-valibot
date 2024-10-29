@@ -51,9 +51,8 @@ export function load(app: Application) {
         if (
             !refl.kindOf(ReflectionKind.TypeAlias) ||
             refl.type?.type !== "reference" ||
-            refl.type.package !== "zod" ||
-            (refl.type.qualifiedName !== "TypeOf" &&
-                refl.type.qualifiedName !== "input")
+            refl.type.package !== "valibot" ||
+            refl.type.qualifiedName !== "InferOutput"
         ) {
             return;
         }
